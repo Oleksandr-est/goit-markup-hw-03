@@ -1,5 +1,10 @@
 /*------------------index.html-------------------*/
-          
+ :root {
+     --color-button: #4d5ae5;
+     --background-button: #F4F4FD;
+     --main-text-color: #434455;
+     --background-color: #FFFFFF;
+ }
 
 body {
 font-family: 'Roboto', sans-serif;
@@ -7,8 +12,20 @@ color: #434455;
 background-color: var(--background-color);
 }
 
+p, h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
-/**---------------header----------------------------*/
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+
+
 
 .link {
     text-decoration: none;
@@ -18,7 +35,34 @@ background-color: var(--background-color);
     list-style-type: none;
 }
 
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    
+ }
 
+
+
+/**---------------header----------------------------*/
+
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-container {
+    display: flex;
+}
+
+
+.header-navigations {
+    display: flex;
+    flex-grow: 1;
+   
+}
 
 .header-logo,
 .footer-logo {
@@ -40,8 +84,14 @@ background-color: var(--background-color);
     color: #2E2F42;
 }
 
-ul {
-    list-style-type: none;
+.header-logo {
+    margin-right: 76px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 40px;
+    
 }
 
 .header-menu-link {
@@ -62,6 +112,7 @@ ul {
 
 .header-address {
     font-style: normal;
+  max-width: 343px;
 }
 
 .header-address-link {
@@ -78,6 +129,12 @@ ul {
 .header-address-link:focus {
     color: #404BBF;
 }
+
+.header-address-list {
+    display: flex;
+    gap: 40px;
+}
+
 .hero-head {
     background: #2E2F42;
 }
@@ -190,14 +247,6 @@ ul {
 
 /*------------------portfolio.html---------------*/
 
-
-
-:root {
-    --color-button: #4d5ae5;
-    --background-button: #F4F4FD;
-    --main-text-color: #434455;
-    --background-color: #FFFFFF;
-}
 
 
 
