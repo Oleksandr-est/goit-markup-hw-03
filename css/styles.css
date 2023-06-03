@@ -135,8 +135,28 @@ ul {
     gap: 40px;
 }
 
+
+/*-------------------HERO------------------------*/
+
+.hero-head-container {
+    
+         margin: 0 auto;
+        
+       
+}
+
+.hero-container {
+    
+    background: #2E2F42;
+    padding: 188px 472px 48px 472px;
+    
+    }
+
+
 .hero-head {
     background: #2E2F42;
+   
+    
 }
 
 .title {
@@ -146,10 +166,20 @@ ul {
         text-align: center;
         letter-spacing: 0.02em;
         color: #FFFFFF;
+        
+        
+       
+       
 }
 
+.button-container {
+padding: 0 636px 188px 636px;
+
+
+}
 
 .hero-btn {
+    
         font-family: inherit;
         font-weight: 500;
         font-size: 16px;
@@ -158,6 +188,10 @@ ul {
         color: var(--background-color);
         background-color: var(--color-button);
         cursor: pointer;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+            padding: 16px 32px;
+            
 }
 
 .hero-btn:hover,
@@ -168,6 +202,23 @@ ul {
 
 /**----------------------bussiness solutions-personal------------------------*/
 
+.solutions-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+
+
+.solutions-list {
+    display: flex;
+    gap: 24px;
+}
+
+.solutions-item {
+    width: calc((100% - 72px) / 4);
+}
+
 .solutions-subtitle,
 .subtitle-personal {
         font-weight: 500;
@@ -175,6 +226,7 @@ ul {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        margin-bottom: 8px;
 }
 
 /**-----------------p-personal work--------------------------*/
@@ -189,6 +241,9 @@ ul {
 }
 
 /**-----------------h2+h2-----------------------------*/
+.app {
+    padding-bottom: 120px;
+}
 
 .subtitle-app,
 .title-personal {
@@ -203,14 +258,58 @@ ul {
 
 /**--------------------images--------------------*/
 
+.subtitle-app {
+    padding-bottom: 72px;
+}
+
+.app-list {
+    display: flex;
+    gap: 24px;
+}
 
 /**--------------------ouer team------------------------*/
+
+
+.title-personal {
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+
+.personal-list {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 120px;
+    
+}
+.personal-item {
+    width: calc((100% - 72px) / 4);
+}
+
+
 .personal {
     background: #F4F4FD;
 }
 .personal-item {
     background-color: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
+        
 }
+/*.subtitle-personal {
+    padding: 0 49px 8px 49px;
+}
+
+.personal-job {
+    padding: 0 52px 0 52px;
+}
+
+
+.personal-name {
+  
+  padding: 32px 16px 32px 16px;
+}
+*/
+
 /**--------------------footer---------------------------------*/
 
  footer {
@@ -327,6 +426,7 @@ ul {
                     color: var(--color-button);
                     background-color: var(--background-button);
                     cursor: pointer;
+                    
                 }
         
                 .hero-button-all:hover,
