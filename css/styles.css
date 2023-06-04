@@ -53,6 +53,10 @@ ul {
 
 /**---------------header----------------------------*/
 
+.header-navigations {
+    align-items: center;
+}
+
 
 .header {
     padding-top: 24px;
@@ -101,6 +105,12 @@ ul {
     
 }
 
+.header-menu-item,
+.header-address-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .header-menu-link {
     font-family: 'Roboto';
     font-weight: 500;
@@ -117,10 +127,10 @@ ul {
 }
 
 
-.header-address {
-    font-style: normal;
+/*.header-address {
+    
   max-width: 343px;
-}
+}*/
 
 .header-address-link {
     font-family: 'Roboto';
@@ -350,13 +360,13 @@ padding: 0 636px 188px 636px;
 /**--------------------footer---------------------------------*/
 
  footer {
-     background: #2E2F42
+     background: #2E2F42;
+     padding-top: 100px;
+     padding-bottom: 100px;
+     
  }
 
- .footer-container {
-    padding: 100px 1020px 100px 0;
-    
- }
+ 
 
  
 
@@ -370,6 +380,10 @@ padding: 0 636px 188px 636px;
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: #4D5AE5;
+     
+     
+
+
  }
 
  .footer-span {
@@ -384,6 +398,8 @@ padding: 0 636px 188px 636px;
      letter-spacing: 0.02em;
 
      color: #F4F4FD;
+     max-width: 264px;
+     margin-top: 16px;
  }
 
 
@@ -457,20 +473,25 @@ padding: 0 636px 188px 636px;
     }
      
     /**---------------------main-buttons--------------------*/
-    
+    .hero {
+        padding-top: 100px;
+        
+    }
     .hero-menu {
         display: flex; 
         gap: 24px;
+        justify-content: center;
+        margin-bottom: 72px;
     }
     
-    .container-button {
+    /*.container-button {
           margin-top: 96px;
           margin-right: 412px;
           margin-left: 412px;
           margin-bottom: 72px;
           max-width: 586px;
           width: calc((100% - 96px) / 5);
-         }
+         }*/
 
       
                 
@@ -544,15 +565,13 @@ padding: 0 636px 188px 636px;
  /*---------------footer---------------------------*/
  
  footer {
-    background: #2E2F42
+    background: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
  }
 
-.footer-container {
-    padding: 100px 1020px 100px 156px;
-}
-.footer-text {
-    padding-top: 16px;
-}
+
+
 
  .footer-logo {
 font-family: 'Raleway',sans-serif;
@@ -576,7 +595,8 @@ font-family: 'Raleway',sans-serif;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-    
+    min-width: 264px;
         color: #F4F4FD;
+        margin-top: 16px;
 }
 
