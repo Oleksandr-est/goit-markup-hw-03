@@ -57,6 +57,7 @@ ul {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .header-container {
@@ -313,20 +314,7 @@ padding: 0 636px 188px 636px;
 
 
 
-/*.subtitle-personal {
-    padding: 0 49px 8px 49px;
-}
 
-.personal-job {
-    padding: 0 52px 0 52px;
-}
-
-
-.personal-name {
-  
-  padding: 32px 16px 32px 16px;
-}
-*/
 
 /**--------------------footer---------------------------------*/
 
@@ -439,9 +427,23 @@ padding: 0 636px 188px 636px;
      
     /**---------------------main-buttons--------------------*/
     
+    .hero-menu {
+        display: flex; 
+        gap: 24px;
+    }
     
-    
-                .hero-button-all {
+    .container-button {
+          margin-top: 96px;
+          margin-right: 427px;
+          margin-left: 427px;
+          margin-bottom: 72px;
+          max-width: 586px;
+          width: calc((100% - 96px) / 5);
+         }
+
+      
+                
+    .hero-button-all {
                     font-family: inherit;
                     font-style: normal;
                     font-weight: 500;
@@ -451,7 +453,9 @@ padding: 0 636px 188px 636px;
                     color: var(--color-button);
                     background-color: var(--background-button);
                     cursor: pointer;
-                    
+                    border: 1px solid #E7E9FC;
+                    border-radius: 4px;
+                    padding: 12px 24px;
                 }
         
                 .hero-button-all:hover,
@@ -462,8 +466,35 @@ padding: 0 636px 188px 636px;
         
                
     /**----------------------ouer offers------------------*/
-    
-    h2 {
+  .images-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    margin-bottom: 120px;
+  }
+   
+  .images-item {
+    width: calc((100% - 48px) / 3);
+  }
+  
+.topic {
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.images-name {
+    padding-left: 16px;
+    padding-bottom: 8px;
+}
+
+.images-topic {
+    padding-left: 16px;
+}
+
+  h2 {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
