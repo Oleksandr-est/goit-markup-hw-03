@@ -301,20 +301,51 @@ padding: 0 636px 188px 636px;
 
 
 .personal-item {
-    background-color: #FFFFFF;
+    
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 0px 0px 4px 4px;
         
 }
 .personal-name {
-    display: block;
-    flex-direction: column;
-    gap: 8px;
+    background-color: #FFFFFF;
+    padding: 32px 16px 32px 16px;
+    border-radius: 0px 0px 4px 4px;
+}
+.mark {
+    padding-left: 48px;
+    margin-bottom: 8px;
+}  
+ 
+.product-designer {
+    padding-left: 52px;
+    }
+
+.tom {
+    padding-left: 72px;
+    margin-bottom: 8px;
 }
 
+.frontend-developer {
+    padding-left: 44px;
+}
 
+.camila {
+    padding-left: 51px;
+    margin-bottom: 8px;
+}
 
+.marketing {
+    padding-left: 78.5px;
+}
 
+.daniel {
+    padding-left: 52.5px;
+    margin-bottom: 8px;
+}
+
+.designer {
+    padding-left: 73.5px;
+}
 
 /**--------------------footer---------------------------------*/
 
@@ -434,8 +465,8 @@ padding: 0 636px 188px 636px;
     
     .container-button {
           margin-top: 96px;
-          margin-right: 427px;
-          margin-left: 427px;
+          margin-right: 412px;
+          margin-left: 412px;
           margin-bottom: 72px;
           max-width: 586px;
           width: calc((100% - 96px) / 5);
