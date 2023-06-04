@@ -614,15 +614,18 @@ padding-bottom: 120px;
 
 
  .footer-logo {
-font-family: 'Raleway',sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    text-decoration: none;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
+
+    font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        text-decoration: none;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+        margin-bottom: 16px;
+        display: inline-block;
 }
 
 .footer-span {
@@ -637,6 +640,6 @@ font-family: 'Raleway',sans-serif;
         letter-spacing: 0.02em;
     min-width: 264px;
         color: #F4F4FD;
-        margin-top: 16px;
+        /*margin-top: 16px;*/
 }
 
