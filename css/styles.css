@@ -105,10 +105,11 @@ ul {
     
 }
 
-.header-menu-item {
+/*.header-menu-item {
     padding-top: 24px;
-        padding-bottom: 24px;
-}
+    padding-bottom: 24px;
+}*/
+
 .header-address-item {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -122,6 +123,8 @@ ul {
     text-decoration: none;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding-top: 24px;
+        padding-bottom: 24px;
 }
 
 .header-menu-link:hover,
