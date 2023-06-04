@@ -19,6 +19,8 @@ p, h1,h2,h3,h4,h5,h6 {
 
 img {
     display: block;
+    max-width: 100%;
+     height: auto;
 }
 
 ul {
@@ -274,10 +276,16 @@ padding: 0 636px 188px 636px;
 /**--------------------ouer team------------------------*/
 
 
+.personal {
+    background: #F4F4FD;
+}
+
 .title-personal {
     padding-top: 120px;
     padding-bottom: 72px;
 }
+
+
 
 .personal-list {
     display: flex;
@@ -290,9 +298,7 @@ padding: 0 636px 188px 636px;
 }
 
 
-.personal {
-    background: #F4F4FD;
-}
+
 .personal-item {
     background-color: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -327,6 +333,13 @@ padding: 0 636px 188px 636px;
  footer {
      background: #2E2F42
  }
+
+ .footer-container {
+    padding: 100px 1020px 100px 0;
+    
+ }
+
+ 
 
  .footer-logo {
      font-family: 'Raleway', sans-serif;
@@ -471,6 +484,13 @@ padding: 0 636px 188px 636px;
  footer {
     background: #2E2F42
  }
+
+.footer-container {
+    padding: 100px 1020px 100px 156px;
+}
+.footer-text {
+    padding-top: 16px;
+}
 
  .footer-logo {
 font-family: 'Raleway',sans-serif;
