@@ -59,8 +59,7 @@ ul {
 
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
     border-bottom: 1px solid #E7E9FC;
 }
 
@@ -161,19 +160,8 @@ ul {
 
 /*-------------------HERO------------------------*/
 
-.container {
-    
-         margin: 0 auto;
-        
-       
-}
 
-.hero-container {
-    
-    background: #2E2F42;
-    
-    
-    }
+
 
 
 .hero-head {
@@ -181,9 +169,11 @@ ul {
     padding-top: 188px;
     padding-bottom: 188px;
    
-    
-}
+    }
 
+    .hero-container {
+        text-align: center;
+    }
 .title {
         font-weight: 700;
         font-size: 56px;
@@ -194,16 +184,8 @@ ul {
         max-width: 496px;
         margin: auto;
         margin-bottom: 48px;
-        
-        
-       
-       
-}
+        }
 
-.button-container {
-display: flex;
-justify-content: center;
-}
 
 
 
@@ -223,7 +205,7 @@ justify-content: center;
             min-width: 169px;
             height: 56px;
             border: none;
-            
+           
 }
 
 .hero-btn:hover,
