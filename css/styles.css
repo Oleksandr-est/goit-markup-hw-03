@@ -171,9 +171,7 @@ ul {
    
     }
 
-    .hero-container {
-        text-align: center;
-    }
+    
 .title {
         font-weight: 700;
         font-size: 56px;
@@ -205,6 +203,8 @@ ul {
             min-width: 169px;
             height: 56px;
             border: none;
+            display: block;
+            margin: 0 auto;
            
 }
 
