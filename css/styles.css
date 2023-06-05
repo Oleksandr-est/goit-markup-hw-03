@@ -30,9 +30,6 @@ ul {
     padding-left: 0;
 }
 
-
-
-
 .link {
     text-decoration: none;
 }
@@ -57,9 +54,7 @@ ul {
     align-items: center;
 }
 
-
 .header {
-    
     border-bottom: 1px solid #E7E9FC;
 }
 
@@ -67,12 +62,10 @@ ul {
     display: flex;
 }
 
-
 .header-navigations {
     display: flex;
     flex-grow: 1;
-   
-}
+   }
 
 .header-logo,
 .footer-logo {
@@ -101,13 +94,7 @@ ul {
 .header-menu {
     display: flex;
     gap: 40px;
-    
-}
-
-/*.header-menu-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}*/
+    }
 
 .header-address-item {
     padding-top: 24px;
@@ -130,12 +117,6 @@ ul {
 .header-menu-link:focus {
     color: #404BBF;
 }
-
-
-/*.header-address {
-    
-  max-width: 343px;
-}*/
 
 .header-address-link {
     font-family: 'Roboto';
@@ -168,11 +149,9 @@ ul {
     background: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
-   
-    }
+   }
 
-    
-.title {
+    .title {
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -188,7 +167,6 @@ ul {
 
 
 .hero-btn {
-    
         font-family: inherit;
         font-weight: 500;
         font-size: 16px;
@@ -205,8 +183,7 @@ ul {
             border: none;
             display: block;
             margin: 0 auto;
-           
-}
+           }
 
 .hero-btn:hover,
 .hero-btn:focus {
@@ -215,6 +192,7 @@ ul {
 }
 
 /**----------------------bussiness solutions-personal------------------------*/
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -302,7 +280,6 @@ padding-bottom: 120px;
 }
 
 .title-personal {
-    
     margin-bottom: 72px;
 }
 
@@ -318,63 +295,23 @@ padding-bottom: 120px;
 .personal-list {
     display: flex;
     gap: 24px;
-    
-    
-}
-.personal-item {
+    }
+
+    .personal-item {
     width: calc((100% - 72px) / 4);
 }
 
-
-
 .personal-item {
-    
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 0px 0px 4px 4px;
-        
-}
-.personal-name {
+        }
+
+        .personal-name {
     background-color: #FFFFFF;
     padding: 32px 16px 32px 16px;
     border-radius: 0px 0px 4px 4px;
 }
-/*
-.mark {
-    padding-left: 48px;
-    margin-bottom: 8px;
-}  
- 
-.product-designer {
-    padding-left: 52px;
-    }
 
-.tom {
-    padding-left: 72px;
-    margin-bottom: 8px;
-}
-
-.frontend-developer {
-    padding-left: 44px;
-}
-
-.camila {
-    padding-left: 51px;
-    margin-bottom: 8px;
-}
-
-.marketing {
-    padding-left: 78.5px;
-}
-
-.daniel {
-    padding-left: 52.5px;
-    margin-bottom: 8px;
-}
-
-.designer {
-    padding-left: 73.5px;
-}*/
-/*cont*/
 
 /**--------------------footer---------------------------------*/
 
@@ -382,12 +319,7 @@ padding-bottom: 120px;
      background: #2E2F42;
      padding-top: 100px;
      padding-bottom: 100px;
-     
- }
-
- 
-
- 
+     }
 
  .footer-logo {
      font-family: 'Raleway', sans-serif;
@@ -401,11 +333,7 @@ padding-bottom: 120px;
      color: #4D5AE5;
      margin-bottom: 16px;
      display: inline-block;
-     
-     
-
-
- }
+     }
 
  .footer-span {
      color: #F4F4FD;
@@ -417,18 +345,13 @@ padding-bottom: 120px;
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
-
      color: #F4F4FD;
      max-width: 264px;
-     /*margin-top: 16px;*/
- }
+   }
 
 
 
 /*------------------portfolio.html---------------*/
-
-
-
 
 
 .link {
@@ -477,7 +400,6 @@ padding-bottom: 120px;
         color: #404BBF;
     }
     
-    
     .header-address {
             font-family: 'Roboto';
             font-style: normal;
@@ -494,6 +416,7 @@ padding-bottom: 120px;
     }
      
     /**---------------------main-buttons--------------------*/
+    
     .visually-hidden {
         position: absolute;
             width: 1px;
@@ -510,25 +433,14 @@ padding-bottom: 120px;
     .hero {
         padding-top: 96px;
         padding-bottom: 120px;
-        
-    }
-    .hero-menu {
+        }
+    
+        .hero-menu {
         display: flex; 
         gap: 24px;
         justify-content: center;
         margin-bottom: 72px;
-    }
-    
-    /*.container-button {
-          margin-top: 96px;
-          margin-right: 412px;
-          margin-left: 412px;
-          margin-bottom: 72px;
-          max-width: 586px;
-          width: calc((100% - 96px) / 5);
-         }*/
-
-      
+       }
                 
     .hero-button-all {
                     font-family: inherit;
@@ -554,7 +466,8 @@ padding-bottom: 120px;
         
                
     /**----------------------ouer offers------------------*/
-  .images-list {
+  
+    .images-list {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
@@ -573,17 +486,13 @@ padding-bottom: 120px;
     padding-bottom: 32px;
     padding-right: 16px;
     padding-left: 16px;
-
 }
 
 .images-name {
-    
     margin-bottom: 8px;
 }
 
-
-
-  h2 {
+h2 {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -607,12 +516,8 @@ padding-bottom: 120px;
     padding-bottom: 100px;
  }
 
-
-
-
- .footer-logo {
-
-    font-family: 'Raleway', sans-serif;
+.footer-logo {
+        font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
@@ -629,14 +534,12 @@ padding-bottom: 120px;
     color: #F4F4FD;
 }
 
-
 .footer-text {
        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-    min-width: 264px;
+        min-width: 264px;
         color: #F4F4FD;
-        /*margin-top: 16px;*/
-}
+        }
 
